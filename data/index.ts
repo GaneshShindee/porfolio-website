@@ -1,6 +1,6 @@
-import vu from "../Images/vu.png";
-import jsp from "../Images/jsp.jpeg";
-import hhs from "../Images/hhs.jpg";
+import vu from "../Images/vu.jpeg";
+import jsp from "../Images/jsp.jpg";
+import kbpv from "../Images/kbpv.jpg";
 import echobazar from "../Images/echobazar.png";
 import vishwaevents from "../Images/vishwaevents.png";
 import film from "../Images/film.png";
@@ -34,18 +34,25 @@ export const navItems: NavItem[] = [
 
 export const education = [
   {
-    course: "Bachelor Of Technology In Computer Engineering",
-    collegeName: "Vishwakarma University, Pune",
-    completion: "2022 - 2025 | Completed",
+    course: "Bachelor Of Technology In ENTC",
+    collegeName: "Vishwakarma Institute of Information Technology, Pune",
+    completion: "2022 - 2026 | Pursuing",
     img: vu,
-    marks: "CGPA : 8.7 / 10",
+    marks: "94.50"
   },
   {
-    course: "Diploma In Computer Engineering",
-    collegeName: "Jaywantrao Sawant Polytechnic, Pune",
-    completion: "2019 - 2022 | Completed",
+    course: "Higher School Certificate (12th)",
+    collegeName: "Dayanand Junior Science college, Latur",
+    completion: "Completed",
     img: jsp,
-    marks: "CGPA : 8.2 / 10",
+    marks: "94.50",
+  },
+  {
+    course: "Secondary School Certificate (10th)",
+    collegeName: "Karmaveer Bhaurao Patil vidhyalaya, Sawari",
+    completion: "Completed",
+    img: kbpv,
+    marks: "90.80",
   }
 ];
 

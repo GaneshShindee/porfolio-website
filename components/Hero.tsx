@@ -27,11 +27,11 @@ const Hero = () => {
             Hi There,
           </p>
           <p className="md:tracking-wider font-bold mb-4 text-3xl md:text-5xl lg:text-5xl">
-            I&apos;m Sanket Mane
+            I&apos;m Ganesh Shinde
           </p>
           <TextGenerateEffect
             className="uppercase tracking-widest text-lg md:text-xl text-blue-100 "
-            words="Software Engineer - Intern @ Syngenta | Ex - Frontend Developer - Intern @ Fyoocher | React.js | Next.js | JavaScript | TypeScript | Playwright (testing) | MERN Stack | Ex-President @ RSD Club, VU | VU'25 | JSCOE'22"
+            words="Aspiring Software Engineer | MERN Stack Developer | React.js | Node.js | JavaScript | TypeScript | Playwright (testing) | Ex-Associate Technical Head @EDC,VIIT | VIIT'26 | JSCOE'22"
           />
         </div>
         <div className="max-w-[89vw] flex items-center md:max-w-3xl lg:max-w-[70vw]">
