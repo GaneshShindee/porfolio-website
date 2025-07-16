@@ -38,7 +38,7 @@ export const education = [
     collegeName: "Vishwakarma Institute of Information Technology, Pune",
     completion: "2022 - 2026 | Pursuing",
     img: vu,
-    marks: "94.50"
+    marks: ""
   },
   {
     course: "Higher School Certificate (12th)",
