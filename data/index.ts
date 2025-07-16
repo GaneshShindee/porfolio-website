@@ -57,21 +57,23 @@ export const education = [
 ];
 
 export const projects = [
-    {
+    { 
+      id: 2,
+      title: "WanderLust",
+      des: "Built an end-to-end vacation rental app with intuitive listings, secure booking, and role-based user access.Implemented REST APIs for bookings and reviews, integrated MongoDB with JWT-based authentication." ,
+      img: vishwaevents,
+      iconLists: [mongodb ,express, react, node, tailwind],
+      link: "https://wanderlust-projectaffan.onrender.com/listings",
+      
+    },
+    { 
       id: 1,
       title: "Echobazar - Ecommerce",
       des: "Developed a comprehensive ECommerce platform enabling users to seamlessly browse products, manage their shopping cart, and process orders. Implemented a dynamic product browsing and checkout, with integrated Stripe payment processing.",
       img: echobazar,
       iconLists: [react , nextjs, mongodb, tailwind, stripe],
       link: "https://echobazar.vercel.app/",
-    },
-    {
-      id: 2,
-      title: "VishwaEvents",
-      des: "Event Management System enabling students to create, manage, and register for events within the college community. Implemented an event creation and registration, with integrated ticket generation upon registration to provide attendees with personalized access to events.",
-      img: vishwaevents,
-      iconLists: [mongodb ,express, react, node, tailwind],
-      link: "https://vishwa-events.vercel.app/",
+      
     },
     {
       id: 3,
@@ -84,42 +86,42 @@ export const projects = [
 ]
 
 export const workExperience = [
-  {
-    id: 1,
-    title: "Software Engineer - Intern",
-    company : "Syngenta",
-    desc: "Currently working on the Cropwise Planting project, specifically focusing on Zone Management. Responsible for improving UI/UX, optimizing performance, developing new features, and writing test cases to ensure application reliability and robustness. Enhancing system performance to provide a seamless user experience in large-scale agricultural planning.",
-    className: "md:col-span-2",
-    img: syngenta,
-    date : 'Jan 2025 - Present'
-  },
+  // {
+  //   id: 1,
+  //   title: "Software Engineer - Intern",
+  //   company : "Syngenta",
+  //   desc: "Currently working on the Cropwise Planting project, specifically focusing on Zone Management. Responsible for improving UI/UX, optimizing performance, developing new features, and writing test cases to ensure application reliability and robustness. Enhancing system performance to provide a seamless user experience in large-scale agricultural planning.",
+  //   className: "md:col-span-2",
+  //   img: syngenta,
+  //   date : 'Jan 2025 - Present'
+  // },
   {
     id: 2,
     title: "Full Stack Developer - Freelancer",
     company : "Visionary Matrix",
-    desc: "Designed the complete system architecture using Figma, followed by meticulous development in Next.js. Implemented custom forms integrated with RESTful APIs and facilitated client-specific report requests, enhancing user engagement and functionality.",
+    desc: "Created custom RESTful APIs and developed interactive forms using Next.js. Enabled client-specific report generation to enhance user engagement and overall functionality.",
     className: "md:col-span-2",
     img: exp1,
     date : 'Jan 2024 - May 2024'
   },
-  {
-    id: 3,
-    title: "Frontend Developer - Intern",
-    company : "Fyoocher",
-    desc: "Worked on a project using React.js and RESTful APIs, contributing to three projects that enhanced user experience and optimized data handling. Ensured responsiveness across devices, improving accessibility and usability for a wider audience. Collaborated with cross-functional teams to gather requirements and implement features.",
-    className: "md:col-span-2", 
-    img: exp2,
-    date : 'Jun 2024 - Dec 2024'
-  },
-  {
-    id: 4,
-    title: "Guest Lecture on Git & Github",
-    company : "Vishwakarma University",
-    desc: "Instructed students on version control concepts, emphasizing its importance in collaborative projects. Provided hands-on training in Git, covering installation, configuration, and fundamental commands and operations. Guided students in using GitHub for collaboration, including account setup and workflows involving pull requests and branches.",
-    className: "md:col-span-2", 
-    img: vuLogo,
-    date : '1 Jan 2024'
-  }
+  // {
+  //   id: 3,
+  //   title: "Frontend Developer - Intern",
+  //   company : "Fyoocher",
+  //   desc: "Worked on a project using React.js and RESTful APIs, contributing to three projects that enhanced user experience and optimized data handling. Ensured responsiveness across devices, improving accessibility and usability for a wider audience. Collaborated with cross-functional teams to gather requirements and implement features.",
+  //   className: "md:col-span-2", 
+  //   img: exp2,
+  //   date : 'Jun 2024 - Dec 2024'
+  // },
+  // {
+  //   id: 4,
+  //   title: "Guest Lecture on Git & Github",
+  //   company : "Vishwakarma University",
+  //   desc: "Instructed students on version control concepts, emphasizing its importance in collaborative projects. Provided hands-on training in Git, covering installation, configuration, and fundamental commands and operations. Guided students in using GitHub for collaboration, including account setup and workflows involving pull requests and branches.",
+  //   className: "md:col-span-2", 
+  //   img: vuLogo,
+  //   date : '1 Jan 2024'
+  // }
 ];
 
 export const skillsData = [

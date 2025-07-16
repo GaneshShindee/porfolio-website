@@ -21,8 +21,8 @@ const ResumeModal = ({ onClose }: { onClose: () => void }) => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/sanket_mane_resume.pdf";
-    link.download = "Sanket_Mane_Resume.pdf";
+    link.href = "/Ganesh_Shinde_Resume.pdf";
+    link.download = "/Ganesh_Shinde_Resume.pdf";
     link.click();
   };
 
@@ -61,7 +61,7 @@ const ResumeModal = ({ onClose }: { onClose: () => void }) => {
           </div>
           <div className="overflow-auto max-h-[70vh]">
             <Viewer 
-              fileUrl="/sanket_mane_resume.pdf" 
+              fileUrl="/Ganesh_Shinde_Resume.pdf" 
               plugins={[zoomPluginInstance]}
               defaultScale={1}
             />

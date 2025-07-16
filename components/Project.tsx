@@ -50,6 +50,8 @@ const Project = () => {
                 style={{
                   color: "#BEC1DD",
                   margin: "1vh 0",
+                  fontSize:".8rem",
+                  fontWeight:"bold"
                 }}
               >
                 {project.des}
